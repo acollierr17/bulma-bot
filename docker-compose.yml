@@ -1,0 +1,8 @@
+version: '3'
+services:
+    discord:
+      container_name: discordjs-template
+      build:
+        context: .
+        dockerfile: ./Dockerfile
+      restart: always

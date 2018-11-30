@@ -1,0 +1,45 @@
+{
+  "name": "bulma-bot",
+  "version": "1.0.0",
+  "description": "This Discord.js bot is used to hook up with my bulma site.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "test": "eslint .",
+    "lint": "eslint --fix .",
+    "prod": "SET NODE_ENV=production&&npm start",
+    "dev": "SET NODE_ENV=development&&nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acollierr17/bulma-bot"
+  },
+  "keywords": [
+    "template",
+    "discord.js",
+    "discord",
+    "bot"
+  ],
+  "author": "acollierr17 <gamemaniac101@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acollierr17/bulma-bot/issues"
+  },
+  "homepage": "https://github.com/acollierr17/bulma-bot#README.md",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "common-tags": "^1.8.0",
+    "discord.js": "^11.4.2",
+    "dotenv-flow": "^0.1.0",
+    "enmap": "^4.3.2",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "moment-timezone": "^0.5.21",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.6.1"
+  }
+}
