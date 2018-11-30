@@ -1,4 +1,4 @@
-# HOME ROUTE - `/api/vi`
+# HOME ROUTE - `/api/v1`
 
 ## GLOBAL ROUTES
 ```
