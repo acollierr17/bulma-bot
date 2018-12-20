@@ -26,6 +26,15 @@
 /guilds/:guildID/users/:userID/suggestions/rejected  
 /guilds/:guildID/users/:userID/commands  
 ```
+## BOT COMMANDS
+```
+/commands # exclude bot owner commands
+/commands/:module
+/commands/:command
+/modules
+/modules/:module
+/modules/:module/:command
+```
 
 ## USER SPECIFIC ROUTES - ADD GLOBAL STATS?
 ```
